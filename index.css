@@ -1,0 +1,163 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background:#C6C6C6;
+}
+
+.container {
+    width: 375px;
+    margin: 50px auto;
+}
+
+.header {
+    width: 375px;
+height: 67px;
+padding: 16px, 16px, 17px, 15px;
+border: 0px, 0px, 1px, 0px;
+background: #FFFFFF;
+border-bottom: 1px solid #C6C6C6;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.main {
+    width: 375px;
+height: 545px;
+top: 67px;
+background: #FFFFFF;
+}
+
+.oldagram-logo {
+    width: 127px;
+height: 55.02px;
+top: 16px;
+left: 15px;
+right: auto;
+background: #000000;
+}
+
+.your-avatar {
+    width: 34px;
+height: 34px;
+top: 16px;
+left: auto;
+border-radius: 50%;
+margin-right: 17px;
+}
+
+.user-info {
+    width: 348px;
+height: 34px;
+top: 10px;
+left: 10px;
+display: flex;
+}
+
+.post-author-photo {
+    width: 34px;
+height: 34px;
+margin: 10 10 10 10;
+border-radius: 50%;
+}
+
+.user-full-name {
+    width: 307px;
+height: 16px;
+top: 11px;
+left: 51px;
+font-family: Source Sans Pro;
+font-size: 13px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+margin-bottom: 0;
+}
+
+.location-text {
+    width: 307px;
+height: 15px;
+top: 27px;
+left: 51px;
+font-family: Source Sans Pro;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+margin-top: 0;
+
+}
+
+.post-image {
+    width: 375px;
+height: 375px;
+top: 55px;
+margin: 31px auto 21px auto;
+}
+
+.body {
+    width: 346px;
+height: 78px;
+top: 451px;
+left: 10px;
+color: #000000;
+margin-left: 10px;
+}
+
+.icons {
+    width: 104.34px;
+height: 22.13px;
+top: 451px;
+left: 10px;
+border: 2.33px;
+display: flex;
+justify-content: space-between;
+}
+
+.icon {
+    width: 21px;
+height: 22.13px;
+top: 451px;
+border: 2.33px;
+}
+
+.like-count {
+    width: 343px;
+height: 16px;
+top: 485px;
+left: 13px;
+font-family: Source Sans Pro;
+font-size: 13px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+}
+
+.username-caption {
+    width: 343px;
+height: 16px;
+top: 513px;
+left: 13px;
+    font-family: Source Sans Pro;
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+}
+
+.username-caption strong {
+    font-family: Source Sans Pro;
+font-size: 13px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+}
